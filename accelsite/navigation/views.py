@@ -5,4 +5,4 @@ def index(request):
     return render(request, 'navigation/home.html')
 
 def simple_html(request):
-    return HttpResponse('<a href="/clearlitmus/last.html">Clear Litmus</a>')
+    return HttpResponse('<a href="/clearlitmus/simple.html">Clear Litmus</a>')
